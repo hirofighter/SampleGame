@@ -16,7 +16,7 @@ class Brave < Character
     monster.hp -= damage
     #「勇者はモンスターに◯のダメージを与えた」などを出力
     puts "「勇者はモンスターに#{damage}のダメージを与えた」"
-    puts "モンスターの残りHP：#{monster.hp}"
+    # puts "モンスターの残りHP：#{monster.hp}"
 
   end
 end
